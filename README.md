@@ -1,16 +1,106 @@
-# React + Vite
+# User Management System Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React frontend for the User Management System project.  
+This application provides authentication, user management, notifications, and profile management with a modern responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Features
 
-## React Compiler
+- Login System
+- Admin Dashboard
+- User Dashboard
+- User CRUD System
+- Search Users
+- Modal Create/Edit User
+- Notification Page
+- Real-time Form Validation
+- Protected Routes
+- Responsive Modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# Technology Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React JS
+- React Router DOM
+- Axios
+- Vite
+
+---
+
+# UI Features
+
+- Soft Modern Design
+- Modern Tables
+- Modal Forms
+- Top Navigation Bar
+- Responsive Layout
+
+---
+
+# Setup Instructions
+
+## 1. Clone Repository
+
+```bash
+git clone YOUR_FRONTEND_REPOSITORY_LINK
+```
+
+---
+
+## 2. Go To Project Folder
+
+```bash
+cd user-management-frontend
+```
+
+---
+
+## 3. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 4. Run Frontend
+
+```bash
+npm run dev
+```
+
+Frontend runs at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+# Backend Requirement
+
+Backend Laravel API must be running before starting frontend.
+
+Backend API:
+
+```text
+http://127.0.0.1:8000/api
+```
+
+---
+
+# Main Pages
+
+- Login
+- Dashboard
+- Users
+- Notifications
+- My Profile
+
+---
+
+# Author
+
+Rakib Ahmed
